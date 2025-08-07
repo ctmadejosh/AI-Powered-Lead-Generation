@@ -50,11 +50,18 @@ pip install -r requirements.txt
 
 ##Set env Variables in a .env separately
 OPENAI_API_KEY=your_openai_key
+
 AIRTABLE_API_KEY=your_airtable_key
+
 AIRTABLE_BASE_ID=your_base_id
+
 AIRTABLE_TABLE_NAME=Leads
+
 AIRTABLE_OUTREACH_LOG_TABLE=Outreach Log
+
 REDDIT_CLIENT_ID=your_reddit_client_id
+
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
+
 REDDIT_USER_AGENT=your_user_agent
 
