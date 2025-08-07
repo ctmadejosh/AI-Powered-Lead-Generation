@@ -112,10 +112,10 @@ Do **not** score high for vague rants, general info-sharing, or non-local discus
 Only return a JSON object in this format (no extra text):
 
 ```json
-{
+{{
   "confidence_score": 0-100,
   "reason": "Explain in 1-2 sentences why this score was given, including location and care relevance."
-}
+}}
 
 Post:
 {post_text}
