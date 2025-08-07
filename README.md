@@ -41,14 +41,17 @@ cd homecare-lead-generator
 ```
 
 ## Create Virtual Env
+```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
-
-##Install Dependencies
+```
+## Install Dependencies
+```bash
 pip install -r requirements.txt
-
-##Set env Variables in a .env separately
+```
+## Set env Variables in a .env separately
+```bash 
 OPENAI_API_KEY=your_openai_key
 
 AIRTABLE_API_KEY=your_airtable_key
@@ -64,4 +67,4 @@ REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
 
 REDDIT_USER_AGENT=your_user_agent
-
+```
